@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+h3 {
+    color: darkblue;
+}
+
+
+table.myTable {
+    margin:auto;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+table.myTable tr.even {
+    background-color: rgb(202, 201, 201);
+}
+
+table.myTable tr.odd {
+    background-color: #c8e492;
+}
+
+
+table.myTable th, table.myTable td {
+    padding:5px;
+}
